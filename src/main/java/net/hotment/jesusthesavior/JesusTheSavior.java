@@ -51,9 +51,9 @@ public class JesusTheSavior
     private static final int MAX_IMAGES = 5; // change this to however many you have
     private ResourceLocation currentImage = null;
 
-    public JesusTheSavior(FMLJavaModLoadingContext context)
+    public JesusTheSavior()
     {
-        IEventBus modEventBus = context.getModEventBus();
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         JesusTheSaviorSounds.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
