@@ -1,0 +1,12 @@
+{
+  "save": {
+    "category": "player",
+    "subtitle": "jesusthesavior.save",
+    "sounds": [
+      {
+        "name": "jesusthesavior:save",
+        "stream": false
+      }
+    ]
+  }
+}
